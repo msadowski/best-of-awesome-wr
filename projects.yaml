@@ -3,17 +3,939 @@ configuration:
   markdown_footer_file: "config/footer.md"
 
 categories:
-  # - category: "data-engineering"
-  #   title: "Machine Learning & Data Engineering"
-  #   subtitle: "Best-of lists about machine learning, data engieering, data science, or other topics related to big data."
+  - category: "open-source-robots"
+    title: "Open Source Robots"
+    subtitle: "Complete open source robot platforms including rovers, arms, quadrupeds, and bipedals."
+
+  - category: "actuators-sensors"
+    title: "Actuators & Sensors"
+    subtitle: "Open source actuators, sensors, and motor control systems."
+
+  - category: "bionics"
+    title: "Bionics"
+    subtitle: "Open source bionic and prosthetic systems."
+
+  - category: "gui-tools"
+    title: "GUI & Tools"
+    subtitle: "Graphical user interfaces and development tools."
+
+  - category: "soft-robotics"
+    title: "Soft Robotics"
+    subtitle: "Soft robotics platforms and toolkits."
+
+  - category: "manufacturing"
+    title: "Manufacturing & 3D Printing"
+    subtitle: "Machining, 3D printing, and manufacturing tools."
+
+  - category: "datasets"
+    title: "Datasets"
+    subtitle: "Robotics datasets for training and benchmarking."
+
+  - category: "drones"
+    title: "Drones & UAVs"
+    subtitle: "Drone platforms, autopilots, and UAV systems."
+
+  - category: "libraries-frameworks"
+    title: "Libraries & Frameworks"
+    subtitle: "Software libraries and frameworks for robotics development."
+
+  - category: "simulators"
+    title: "Simulators"
+    subtitle: "Robot simulation platforms and environments."
+
+  - category: "middleware"
+    title: "Middleware"
+    subtitle: "Robot operating systems and middleware platforms."
+
+  - category: "ros"
+    title: "ROS Ecosystem"
+    subtitle: "ROS packages, tools, and frameworks."
+
+  - category: "motor-control"
+    title: "Motor Control"
+    subtitle: "Motor controllers and electronic speed controllers."
+
+  - category: "electronics"
+    title: "Electronics"
+    subtitle: "Electronic design and documentation tools."
+
+  - category: "education"
+    title: "Education & Learning"
+    subtitle: "Books, courses, tutorials, and educational resources."
+
+  - category: "other"
+    title: "Other Resources"
+    subtitle: "Miscellaneous robotics resources and tools."
 
 labels:
-  # - label: "python"
-  #   image: "https://www.python.org/static/favicon.ico"
-  #   description: "Best-of list with Python projects"
+  - label: "python"
+    image: "https://www.python.org/static/favicon.ico"
+    description: "Python-based robotics projects"
+
+  - label: "cpp"
+    image: "https://isocpp.org/favicon.ico"
+    description: "C++ robotics projects"
+
+  - label: "ros"
+    image: "https://www.ros.org/favicon.ico"
+    description: "ROS-based projects"
+
+  - label: "mit"
+    image: "https://opensource.org/favicon.ico"
+    description: "MIT licensed projects"
+
+  - label: "apache"
+    image: "https://apache.org/favicon.ico"
+    description: "Apache licensed projects"
+
+  - label: "gpl"
+    image: "https://www.gnu.org/favicon.ico"
+    description: "GPL licensed projects"
 
 projects:
-  # - name: best-of-ml-python
-  #   github_id: ml-tooling/best-of-ml-python
-  #   labels: ["python"]
-  #   category: "data-engineering"
+  # Open Source Robots - Rovers and Cars
+  - name: turtlebot
+    github_id: turtlebot/turtlebot
+    labels: ["ros"]
+    category: "open-source-robots"
+    description: "A popular, low-cost, personal robot kit with open-source software, created at Willow Garage."
+
+  - name: nasa-open-source-rover
+    github_id: nasa-jpl/open-source-rover
+    labels: ["apache"]
+    category: "open-source-robots"
+    description: "A build-it-yourself, 6-wheel rover based on the rovers on Mars."
+
+  - name: sawppy-rover
+    github_id: Roger-random/Sawppy_Rover
+    labels: ["mit"]
+    category: "open-source-robots"
+    description: "A 3D printed motorized model of Mars rovers Curiosity and Mars 2020 that can be built on $500 budget."
+
+  - name: donkeycar
+    github_id: autorope/donkeycar
+    labels: ["python", "mit"]
+    category: "open-source-robots"
+    description: "DIY self-driving platform for small scale cars. Requires an R/C car, Raspberry Pi and is programmed in Python."
+
+  - name: morph
+    github_id: roaldlemmens/morph
+    labels: ["gpl"]
+    category: "open-source-robots"
+    description: "An affordable modular differential drive platform for open robotics development for hackers."
+
+  - name: linorobot
+    github_id: linorobot/linorobot
+    labels: ["ros"]
+    category: "open-source-robots"
+    description: "ROS Compatible ground robots (2WD, 4WD, Ackermann Steering, Mecanum Drive)."
+
+  - name: mushr
+    github_id: prl-mushr/mushr
+    labels: ["ros"]
+    category: "open-source-robots"
+    description: "An open-source robotic hardware and software platform for learning and researching AI in autonomous vehicles and mobile robotics."
+
+  - name: scuttle
+    github_id: scuttlerobot/SCUTTLE
+    labels: ["mit"]
+    category: "open-source-robots"
+    description: "Open source differential-drive robot designed to support teaching within Multidisciplinary Engineering Technology."
+
+  - name: mars-rover
+    github_id: jakkra/Mars-Rover
+    labels: ["cpp", "mit"]
+    category: "open-source-robots"
+    description: "Curiosity/Perseverance inspired Rover with open source hardware and software."
+
+  - name: openbot
+    github_id: intel-isl/OpenBot
+    labels: ["mit"]
+    category: "open-source-robots"
+    description: "$50 robot car that interfaces with smartphone for high level control."
+
+  - name: openmower
+    github_id: ClemensElflein/OpenMower
+    category: "open-source-robots"
+    description: "An open-source, RTK-GPS enabled mower project."
+
+  - name: makerspet-loki
+    github_id: makerspet/makerspet_loki
+    labels: ["apache"]
+    category: "open-source-robots"
+    description: "A $100 open-source ROS2 home pet robot with 3D-printed design and micro-ROS on Arduino ESP32."
+
+  - name: lekiwi
+    github_id: SIGRobotics-UIUC/LeKiwi
+    labels: ["apache"]
+    category: "open-source-robots"
+    description: "Small omnidirectional robot with an SO-ARM100 attached to it."
+
+  # Open Source Robots - Robot Arms
+  - name: dexter
+    github_id: HaddingtonDynamics/Dexter
+    labels: ["gpl"]
+    category: "open-source-robots"
+    description: "Open Source industrial robotics arm project."
+
+  - name: reachy
+    github_id: pollen-robotics/reachy
+    category: "open-source-robots"
+    description: "A 7-DOF prosthesis robotic arm developed by Pollen Robotics."
+
+  - name: faze4
+    github_id: PCrnjak/Faze4-Robotic-arm
+    labels: ["mit"]
+    category: "open-source-robots"
+    description: "Small fully 3D printable open source 6 axis robotic arm for research and education."
+
+  - name: so-arm100
+    github_id: TheRobotStudio/SO-ARM100
+    labels: ["apache"]
+    category: "open-source-robots"
+    description: "Open Source 3D printable low-cost robot arm for accessible end-to-end learning."
+
+  - name: pedro
+    github_id: almtzr/Pedro
+    labels: ["apache"]
+    category: "open-source-robots"
+    description: "A small, 3D-printed robotic manipulator with 3 Degrees of Freedom."
+
+  - name: openarm
+    category: "open-source-robots"
+    description: "A bimanual manipulator setup with a BOM cost of around $6,500 and 7 DoF and 6kg payload per arm."
+
+  # Open Source Robots - Quadrupeds
+  - name: stanford-doggo
+    github_id: Nate711/StanfordDoggoProject
+    labels: ["mit"]
+    category: "open-source-robots"
+    description: "Stanford Doggo is a highly agile robot designed to provide an accessible platform for legged robot research."
+
+  - name: mjbots-quad-a0
+    github_id: mjbots/moteus
+    labels: ["apache"]
+    category: "open-source-robots"
+    description: "The mjbots quad A0 is a small dynamic quadruped, like the MIT mini-Cheetah, but fully open source."
+
+  - name: stanford-quadruped
+    github_id: stanfordroboticsclub/StanfordQuadruped
+    labels: ["mit"]
+    category: "open-source-robots"
+    description: "A low cost quadruped robot with the BoM coming to around $600-900 depending on components."
+
+  - name: open-dynamic-robot-initiative
+    category: "open-source-robots"
+    description: "An Open Torque-Controlled Modular Robot Architecture for Legged Locomotion Research."
+
+  # Open Source Robots - Bipedals
+  - name: open-duck-mini
+    github_id: apirrone/Open_Duck_Mini
+    labels: ["apache"]
+    category: "open-source-robots"
+    description: "A miniaturized version of Disney's BDX droid."
+
+  - name: poppy-humanoid
+    github_id: poppy-project/poppy-humanoid
+    category: "open-source-robots"
+    description: "An open-source and 3D printed humanoid robot."
+
+  # Actuators & Sensors
+  - name: bam
+    github_id: Rhoban/bam
+    labels: ["mit"]
+    category: "actuators-sensors"
+    description: "A handy tool for characterizing actuator friction for better modeling for simulations."
+
+  - name: openmv
+    category: "actuators-sensors"
+    description: "The OpenMV project creates low-cost, extensible, Python powered, machine vision modules - the 'Arduino of Machine Vision'."
+
+  # Bionics
+  - name: open-source-leg
+    category: "bionics"
+    description: "Open-source actuated leg prosthetics with a total cost of approx. $28.5k to produce."
+
+  # GUI & Tools
+  - name: open-mct
+    github_id: nasa/openmct
+    labels: ["apache"]
+    category: "gui-tools"
+    description: "Open MCT (Open Mission Control Technologies) is a next-generation mission control framework for visualization of data on desktop and mobile devices."
+
+  # Soft Robotics
+  - name: soft-robotics-toolkit
+    category: "soft-robotics"
+    description: "The Soft Robotics Toolkit is a collection of shared resources to support the design, fabrication, modeling, characterization, and control of soft robotic devices."
+
+  - name: punyo
+    category: "soft-robotics"
+    description: "Soft Bubble Grippers for Robust and Perceptive Manipulation from Toyota Research Institute."
+
+  # Manufacturing & 3D Printing
+  - name: cycloidal-generator
+    github_id: mawildoer/cycloidal_generator
+    category: "manufacturing"
+    description: "A cycloidal reduction drive generator script for Autodesk Fusion360."
+
+  - name: pointcloudprinter
+    github_id: marian42/pointcloudprinter
+    labels: ["mit"]
+    category: "manufacturing"
+    description: "Prepare pointclouds from aerial LIDAR scans for 3D printing."
+
+  - name: linuxcnc
+    category: "manufacturing"
+    description: "Open Source software that can drive milling machines, lathes, 3d printers, laser cutters, plasma cutters, robot arms, hexapods, and more."
+
+  - name: freeloader
+    category: "manufacturing"
+    description: "A low cost, desktop size, open source, universal testing machine, designed for inexpensive high-throughput material testing."
+
+  - name: diy-cnc-machine
+    github_id: maxvfischer/DIY-CNC-machine
+    category: "manufacturing"
+    description: "A very thorough DIY build of a CNC machine based on a Makita router with a very permissive licence."
+
+  # Datasets
+  - name: kitti-vision-benchmark
+    category: "datasets"
+    description: "Vision benchmark captured in Karlsruhe, contains data from LiDAR, GPS and stereo cameras."
+
+  - name: flir-thermal-dataset
+    category: "datasets"
+    description: "Synced annotated thermal imagery and non-annotated RGB imagery for reference for ADAS research. Contains over 14k images."
+
+  - name: nuscenes
+    category: "datasets"
+    description: "Autonomous vehicle dataset that includes approximately 1.4M camera images, 390k LIDAR sweeps, 1.4M RADAR sweeps and 1.4M object bounding boxes in 40k keyframes."
+
+  - name: uzh-fpv-drone-racing
+    category: "datasets"
+    description: "Quadrotor racing dataset that contains information from event camera, RGB camera and groundtruth from Leica Nova MS60 laser tracker."
+
+  - name: partnet
+    category: "datasets"
+    description: "A consistent, large-scale dataset of 3D objects annotated with fine-grained, instance-level, and hierarchical 3D part information."
+
+  - name: utbm-robocar-dataset
+    category: "datasets"
+    description: "A dataset containing a robotic car sensor data with 2 stereo cameras, 3 lidars, radar, GNSS receiver with RTK base station, IMU and 2 RGB cameras."
+
+  - name: urbanloco
+    github_id: weisongwen/UrbanLoco
+    category: "datasets"
+    description: "Robotic car dataset providing sensor information as a ROS bag."
+
+  - name: libre-dataset
+    category: "datasets"
+    description: "LiDAR Benchmark Reference dataset comparing 12 LiDAR models across various scenarios and conditions for self-driving cars."
+
+  - name: ustc-flicar-dataset
+    category: "datasets"
+    description: "A heavy-duty VTOL dataset captured by a robotic bucket truck."
+
+  - name: open-x-embodiment
+    category: "datasets"
+    description: "A large open-source real robot dataset with 1M+ real robot trajectories spanning 22 robot embodiments."
+
+  - name: l2d-dataset
+    category: "datasets"
+    description: "A huge dataset captured by driving schools in Germany for autonomous driving research."
+
+  # Drones & UAVs
+  - name: ardupilot
+    category: "drones"
+    description: "Open Source autopilot for multirotors, fixed wings, rovers, boats and submarines."
+
+  - name: px4
+    category: "drones"
+    description: "PX4 is an open source flight control software for drones and other unmanned vehicles."
+
+  - name: paparazzi
+    category: "drones"
+    description: "Open-source drone hardware and software project encompassing autopilot systems and ground station software for multicopters/multirotors, fixed-wing, helicopters and hybrid aircraft."
+
+  # Libraries & Frameworks
+  - name: rerun
+    github_id: rerun-io/rerun
+    labels: ["mit", "apache"]
+    category: "libraries-frameworks"
+    description: "An SDK for logging computer vision and robotics data paired with a visualizer for exploring that data over time."
+
+  - name: gtsam
+    github_id: borglab/gtsam
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "A BSD-licensed C++ library that implements sensor fusion for robotics and computer vision applications, including SLAM, VO, and SFM."
+
+  - name: ceres-solver
+    github_id: ceres-solver/ceres-solver
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "An open source C++ library for modeling and solving large, complicated optimization problems, used for bundle adjustment, SLAM, camera calibration."
+
+  - name: visual-servoing-platform
+    category: "libraries-frameworks"
+    description: "A cross-platform library that allows prototyping and developing applications using visual tracking and visual servoing techniques."
+
+  - name: point-cloud-library
+    category: "libraries-frameworks"
+    description: "Standalone, large scale, open project for 2D/3D image and point cloud processing."
+
+  - name: opencv
+    category: "libraries-frameworks"
+    description: "Open Source computer vision library."
+
+  - name: videoflow
+    github_id: videoflow/videoflow
+    labels: ["python", "mit"]
+    category: "libraries-frameworks"
+    description: "Python framework that facilitates the quick development of complex video analysis applications in a multiprocessing environment."
+
+  - name: robotics-library
+    github_id: roboticslibrary/rl
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "Self-contained C++ library for rigid body kinematics and dynamics, motion planning, and control."
+
+  - name: openpose
+    github_id: CMU-Perceptual-Computing-Lab/openpose
+    category: "libraries-frameworks"
+    description: "Real-time multi-person keypoint detection library for body, face, hands, and foot estimation."
+
+  - name: raisim
+    category: "libraries-frameworks"
+    description: "A physics for rigid-body dynamics simulation."
+
+  - name: ompl
+    github_id: ompl/ompl
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "OMPL consists of many state-of-the-art sampling-based motion planning algorithms."
+
+  - name: evo
+    labels: ["python"]
+    category: "libraries-frameworks"
+    description: "A Python package for the evaluation of odometry and SLAM."
+
+  - name: mrpt
+    category: "libraries-frameworks"
+    description: "Mobile Robot Programming Toolkit provides developers with portable and well-tested applications and libraries covering data structures and algorithms employed in common robotics research areas."
+
+  - name: moos
+    category: "libraries-frameworks"
+    description: "A C++ cross platform middleware for robotics research."
+
+  - name: pinocchio
+    github_id: stack-of-tasks/pinocchio
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "A fast and flexible implementation of Rigid Body Dynamics algorithms and their analytical derivatives."
+
+  - name: openshc
+    github_id: csiro-robotics/syropod_highlevel_controller
+    category: "libraries-frameworks"
+    description: "A versatile multilegged robot controller capable of generating body poses and gaits for quasi-static multilegged robots."
+
+  - name: exotica
+    github_id: ipab-slmc/exotica
+    labels: ["cpp", "python"]
+    category: "libraries-frameworks"
+    description: "A general Optimisation Toolset for Robotics platforms, written in C++ with bindings for Python."
+
+  - name: crocoddyl
+    github_id: loco-3d/crocoddyl
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "An optimal control library for robot control under contact sequence based on various efficient Differential Dynamic Programming algorithms."
+
+  - name: open3d
+    github_id: isl-org/Open3D
+    labels: ["cpp", "python", "mit"]
+    category: "libraries-frameworks"
+    description: "An open-source library that supports rapid development of software that deals with 3D data."
+
+  - name: robotics-toolbox-python
+    github_id: petercorke/robotics-toolbox-python
+    labels: ["python", "mit"]
+    category: "libraries-frameworks"
+    description: "This toolbox brings robotics-specific functionality to Python, leveraging Python's advantages of portability, ubiquity and support."
+
+  - name: fields2cover
+    github_id: Fields2Cover/Fields2Cover
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "A modular and extensible Coverage Path Planning library."
+
+  - name: segment-anything
+    github_id: facebookresearch/segment-anything
+    labels: ["apache"]
+    category: "libraries-frameworks"
+    description: "The Segment Anything Model (SAM) produces high quality object masks from input prompts such as points or boxes."
+
+  - name: lerobot
+    github_id: huggingface/lerobot
+    labels: ["python", "apache"]
+    category: "libraries-frameworks"
+    description: "Developed by Hugging Face, LeRobot provides models, datasets and tools for real-world robotics in PyTorch."
+
+  # SLAM Libraries
+  - name: cartographer
+    github_id: googlecartographer/cartographer
+    labels: ["cpp", "apache"]
+    category: "libraries-frameworks"
+    description: "2D and 3D SLAM library, supports multiple platforms and sensor configurations."
+
+  - name: gmapping
+    category: "libraries-frameworks"
+    description: "GMapping is a highly efficient Rao-Blackwellized particle filter to learn grid maps from laser range data."
+
+  - name: hector-slam
+    github_id: tu-darmstadt-ros-pkg/hector_slam
+    labels: ["ros"]
+    category: "libraries-frameworks"
+    description: "Hector SLAM contains ROS packages related to performing SLAM in unstructured environments."
+
+  - name: tinyslam
+    category: "libraries-frameworks"
+    description: "ROS implementation of tinySLAM, one of the simplest and lightweight SLAM methods."
+
+  - name: xivo
+    github_id: ucla-vision/xivo
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "A library for visual-inertial odometry and mapping."
+
+  - name: slam-toolbox
+    github_id: SteveMacenski/slam_toolbox
+    labels: ["ros"]
+    category: "libraries-frameworks"
+    description: "A ROS package for 2D lifelong mapping and localization in potentially massive maps."
+
+  - name: kimera
+    github_id: MIT-SPARK/Kimera
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "C++ library for real-time metric-semantic simultaneous localization and mapping."
+
+  - name: lama
+    github_id: iris-ua/iris_lama
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "A lightweight Localization and Mapping library that should run on Raspberry Pi 3B+."
+
+  - name: rtab-map
+    category: "libraries-frameworks"
+    description: "RTAB-Map (Real-Time Appearance-Based Mapping) is a RGB-D, Stereo and Lidar Graph-Based SLAM approach."
+
+  - name: basalt
+    category: "libraries-frameworks"
+    description: "Library for visual-inertial odometry and mapping."
+
+  - name: lio-sam
+    github_id: TixiaoShan/LIO-SAM
+    labels: ["cpp"]
+    category: "libraries-frameworks"
+    description: "A real-time lidar-inertial odometry package with very promising results for multi-beam LiDARS."
+
+  # Simulators
+  - name: v-rep
+    category: "simulators"
+    description: "A robot simulator with integrated development environment based on a distributed control architecture."
+
+  - name: argos
+    category: "simulators"
+    description: "ARGoS is a multi-physics robot simulator that can simulate large-scale swarms of robots efficiently."
+
+  - name: gazebo
+    category: "simulators"
+    description: "Open Source simulator that plays nicely with ROS developed by OSRF. Supports 4 physics engines."
+
+  - name: webots
+    category: "simulators"
+    description: "Free and open source simulator that includes a large collection of robots, sensors, actuators and objects models."
+
+  - name: carla
+    category: "simulators"
+    description: "Open-source simulator for autonomous driving research."
+
+  - name: airsim
+    github_id: microsoft/AirSim
+    labels: ["mit"]
+    category: "simulators"
+    description: "A simulator for drones, cars and more, built on Unreal Engine and made by Microsoft."
+
+  - name: openrave
+    category: "simulators"
+    description: "OpenRAVE provides an environment for testing, developing, and deploying motion planning algorithms in real-world robotics applications."
+
+  - name: flightmare
+    github_id: uzh-rpg/flightmare
+    labels: ["mit"]
+    category: "simulators"
+    description: "An Open Flexible Quadrotor Simulator."
+
+  - name: pyrobosim
+    github_id: sea-bass/pyrobosim
+    labels: ["python"]
+    category: "simulators"
+    description: "ROS2 enabled 2D mobile robot simulator for behavior prototyping."
+
+  - name: mvsim
+    github_id: MRPT/mvsim
+    labels: ["cpp"]
+    category: "simulators"
+    description: "Lightweight, dynamical simulator for 2D vehicles and robots."
+
+  - name: isaac-sim
+    category: "simulators"
+    description: "Proprietary simulator from NVIDIA with advanced physics, AI-based features, and GPU-accelerated capabilities."
+
+  # Middleware
+  - name: ros
+    category: "middleware"
+    description: "The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications."
+
+  - name: moos-ivp
+    category: "middleware"
+    description: "MOOS-IvP is a set of open source C++ modules for providing autonomy on robotic platforms, particularly autonomous marine vehicles."
+
+  - name: yarp
+    github_id: robotology/yarp
+    category: "middleware"
+    description: "Yet Another Robot Platform middleware for robotics."
+
+  - name: viam
+    category: "middleware"
+    description: "Viam is an open source software platform that's modular, pluggable, and designed to work with any hardware with sensing, compute, and actuation."
+
+  - name: dora
+    github_id: dora-rs/dora
+    labels: ["apache"]
+    category: "middleware"
+    description: "Middleware designed to streamline and simplify the creation of AI-based robotic applications."
+
+  - name: copper
+    github_id: copper-project/copper-rs
+    labels: ["apache"]
+    category: "middleware"
+    description: "Copper is a user-friendly runtime engine for creating fast and reliable robots - what a game engine is to games."
+
+  # ROS Ecosystem - Libraries and Packages
+  - name: towr
+    labels: ["ros", "cpp"]
+    category: "ros"
+    description: "A light-weight, Eigen-based C++ library for trajectory optimization for legged robots."
+
+  - name: behaviortree-cpp
+    github_id: BehaviorTree/BehaviorTree.CPP
+    labels: ["cpp", "mit"]
+    category: "ros"
+    description: "Behavior Trees Library in C++."
+
+  - name: plotjuggler
+    github_id: facontidavide/PlotJuggler
+    labels: ["ros"]
+    category: "ros"
+    description: "QT5 based application to display time series in plots, using an intuitive 'drag and drop' interface."
+
+  - name: rosshow
+    github_id: dheera/rosshow
+    labels: ["ros", "python"]
+    category: "ros"
+    description: "Visualize ROS topics inside a terminal with Unicode/ASCII art."
+
+  - name: astrobee
+    github_id: nasa/astrobee
+    labels: ["ros", "apache"]
+    category: "ros"
+    description: "NASA Astrobee Robot Software."
+
+  - name: vector-ros
+    github_id: betab0t/vector_ros
+    labels: ["ros"]
+    category: "ros"
+    description: "ROS package for Anki Vector home robot."
+
+  - name: smacc
+    github_id: reelrbtx/SMACC
+    labels: ["ros", "cpp"]
+    category: "ros"
+    description: "An event-driven, asynchronous, behavioral state machine library for real-time ROS applications written in C++."
+
+  - name: robot-runner
+    github_id: S2-group/robot-runner
+    labels: ["mit"]
+    category: "ros"
+    description: "Robot Runner (RR) is a tool to automatically execute measurement-based experiments on robotics software."
+
+  - name: allan-variance-ros
+    github_id: ori-drs/allan_variance_ros
+    labels: ["ros"]
+    category: "ros"
+    description: "ROS package which loads a rosbag of IMU data and computes Allan Variance parameters."
+
+  - name: voxgraph
+    github_id: ethz-asl/voxgraph
+    labels: ["ros", "cpp"]
+    category: "ros"
+    description: "Globally consistent volumetric mapping framework representing the world as a collection of Signed Distance Function submaps."
+
+  - name: wavemap
+    github_id: ethz-asl/wavemap
+    labels: ["ros", "cpp"]
+    category: "ros"
+    description: "Fast, efficient and accurate multi-resolution, multi-sensor 3D occupancy mapping."
+
+  - name: jupyterlab-urdf
+    github_id: ihuicatl/jupyterlab-urdf
+    labels: ["ros", "python"]
+    category: "ros"
+    description: "An extension to display URDF in JupyterLab."
+
+  - name: quad-sdk
+    github_id: robomechanics/quad-sdk
+    labels: ["ros", "mit"]
+    category: "ros"
+    description: "ROS-based framework for agile quadrupedal locomotion."
+
+  - name: aerostack2
+    github_id: aerostack2/aerostack2
+    labels: ["ros", "cpp"]
+    category: "ros"
+    description: "Framework that helps developers design and build the control architecture of aerial robotic systems."
+
+  - name: race-stack
+    github_id: ForzaETH/race_stack
+    labels: ["ros", "mit"]
+    category: "ros"
+    description: "Full stack for F1TENTH autonomous scaled cars based on ROS 1."
+
+  # ROS Ecosystem - Drones
+  - name: rosflight
+    category: "ros"
+    description: "ROSflight is an autopilot system designed from the ground up with researchers in mind, and for easy integration with ROS."
+
+  - name: rpg-quadrotor-control
+    github_id: uzh-rpg/rpg_quadrotor_control
+    labels: ["ros"]
+    category: "ros"
+    description: "A complete framework for flying quadrotors based on control algorithms developed by the Robotics and Perception Group at University of Zurich."
+
+  # ROS Ecosystem - Web Tools
+  - name: roslibjs
+    github_id: RobotWebTools/roslibjs
+    labels: ["ros", "javascript"]
+    category: "ros"
+    description: "A standard ROS JavaScript library."
+
+  - name: web-video-server
+    github_id: RobotWebTools/web_video_server
+    labels: ["ros"]
+    category: "ros"
+    description: "HTTP Streaming of ROS Image Topics in Multiple Formats."
+
+  - name: webviz
+    github_id: cruise-automation/webviz
+    labels: ["ros", "apache"]
+    category: "ros"
+    description: "A web based application for playback and visualization of ROS bag files made by Cruise Automation."
+
+  - name: transitive
+    github_id: transitiverobotics/transitive
+    labels: ["ros", "apache"]
+    category: "ros"
+    description: "A full-stack framework for robotic capabilities that connect robot, cloud, and web."
+
+  - name: transact
+    github_id: transitiverobotics/transact
+    labels: ["ros", "apache"]
+    category: "ros"
+    description: "An open-source robot fleet management dashboard."
+
+  # ROS Ecosystem - Interest Groups
+  - name: autoware
+    category: "ros"
+    description: "The Autoware Foundation is a non-profit organization supporting open-source projects enabling self-driving mobility."
+
+  - name: ros-industrial
+    category: "ros"
+    description: "ROS-Industrial is an open-source project that extends the advanced capabilities of ROS software to industrial relevant hardware and applications."
+
+  # Motor Control
+  - name: vesc
+    category: "motor-control"
+    description: "An open source ESC project commonly used in electronics skateboard community and robotics projects like MIT RACECAR and MuSHR."
+
+  - name: odrive
+    category: "motor-control"
+    description: "'A hobby motor for robotics'. Can control two motors at the same time."
+
+  - name: stmbl
+    github_id: rene-dev/stmbl
+    labels: ["gpl"]
+    category: "motor-control"
+    description: "AC Servo Driver for STM32F4."
+
+  - name: simplefoc
+    category: "motor-control"
+    description: "Arduino Compatible Open Source Field Oriented Control (FOC) project."
+
+  # Electronics
+  - name: wireviz
+    github_id: formatc1702/WireViz
+    labels: ["gpl"]
+    category: "electronics"
+    description: "A tool for documenting cables, wiring harnesses and connector pinouts by describing them in YAML format."
+
+  # Education & Learning
+  - name: pythonrobotics
+    github_id: AtsushiSakai/PythonRobotics
+    labels: ["python", "mit"]
+    category: "education"
+    description: "Python sample codes for robotics algorithms."
+
+  - name: kalman-and-bayesian-filters
+    github_id: rlabbe/Kalman-and-Bayesian-Filters-in-Python
+    labels: ["python"]
+    category: "education"
+    description: "Kalman Filter book using Jupyter Notebook focusing on building intuition and experience, not formal proofs."
+
+  - name: slam-for-dummies
+    category: "education"
+    description: "Introductory document to SLAM and Extended Kalman Filter with example C++ implementation source code."
+
+  - name: practical-deep-learning
+    category: "education"
+    description: "Free course on neural networks from fast.ai with 14 lessons."
+
+  - name: machine-learning-course
+    github_id: instillai/machine-learning-course
+    labels: ["python"]
+    category: "education"
+    description: "Freely available Machine Learning course using Python developed by Machine Learning Mindset."
+
+  - name: robotics-501
+    github_id: michiganrobotics/rob501
+    category: "education"
+    description: "ROB 501: Mathematics for Robotics, a graduate-level course at the University of Michigan that introduces applied mathematics for robotics engineers."
+
+  - name: calibration-desk-reference
+    category: "education"
+    description: "An 80 page long document on sensor calibration from Tangram Vision."
+
+  - name: elements-of-robotics
+    category: "education"
+    description: "Open access book on robotics, directed towards beginners with many algorithmic activities and exercises."
+
+  - name: foundations-of-robotics
+    category: "education"
+    description: "An Open-access book on robotics, rather for beginners."
+
+  - name: flying-planes-with-javascript
+    category: "education"
+    description: "Tutorials on integrating with Microsoft Flight Simulator 2020 API that ends with developing some autopilot-like functionality."
+
+  # Other Resources
+  - name: ai-gaming-rules
+    category: "other"
+    description: "Examples of AI Gaming the Rules - spreadsheet containing lots of information about algorithms pausing simulation to get highest scores."
+
+  - name: osrtos
+    category: "other"
+    description: "A list of open source Real Time Operating Systems (RTOS)."
+
+  - name: haptipedia
+    category: "other"
+    description: "An online, open-source, visualization of a growing database of 105+ haptic devices invented since 1992."
+
+  - name: board-db
+    category: "other"
+    description: "A searchable database of single board computers."
+
+  - name: fast-introduction-to-robotics
+    category: "other"
+    description: "A hand-picked selection of Robotics resources covering robotics from various angles."
+
+  - name: continuum-robot-examples
+    github_id: JohnDTill/ContinuumRobotExamples
+    labels: ["mit"]
+    category: "other"
+    description: "Continuum robots have elastic links which are capable of large-scale continuous deformations. This repo has example scripts to simulate continuum robots."
+
+  - name: ai-incident-database
+    category: "other"
+    description: "A well documented database of AI incidents."
+
+  - name: ros-robotics-companies
+    github_id: vmayoral/ros-robotics-companies
+    category: "other"
+    description: "A list of companies using ROS 1 or ROS 2."
+
+  - name: control-challenges
+    category: "other"
+    description: "A set of control challenges that you can solve in the browser using Javascript."
+
+  - name: robotics-conferences
+    category: "other"
+    description: "Lists of robotics-related conferences and summer/winter schools."
+
+  - name: arduino-library
+    category: "other"
+    description: "A library of thousands of Arduino libraries that contains powerful search capabilities."
+
+  # Documentaries
+  - name: makani-documentary
+    category: "other"
+    description: "Pulling Power from the Sky: The Story of Makani - A documentary on Makani, a company that was producing energy from wind using kites."
+
+  - name: robot-revolution-documentary
+    category: "other"
+    description: "How to Start a Robot Revolution - a Red Hat documentary on ROS."
+
+  # Awesome Robotics Lists
+  - name: kiloreux-awesome-robotics
+    github_id: kiloreux/awesome-robotics
+    category: "other"
+    description: "Awesome robotics list by kiloreux."
+
+  - name: ahundt-awesome-robotics
+    github_id: ahundt/awesome-robotics
+    category: "other"
+    description: "Awesome robotics list by ahundt."
+
+  - name: jslee02-awesome-robotics-libraries
+    github_id: jslee02/awesome-robotics-libraries
+    category: "other"
+    description: "Awesome robotics libraries list by jslee02."
+
+  - name: awesome-ros2
+    github_id: fkromer/awesome-ros2
+    category: "other"
+    description: "Awesome ROS 2 list."
+
+  - name: awesome-robotic-tooling
+    github_id: Ly0n/awesome-robotic-tooling
+    category: "other"
+    description: "Awesome robotic tooling list."
+
+  - name: awesome-cloud-robotics
+    github_id: Airbotics/awesome-cloud-robotics
+    category: "other"
+    description: "Awesome cloud robotics list."
+
+  - name: awesome-robotics-projects
+    github_id: mjyc/awesome-robotics-projects
+    category: "other"
+    description: "Awesome robotics projects list."
+
+  - name: awesome-llm-robotics
+    github_id: GT-RIPL/Awesome-LLM-Robotics
+    category: "other"
+    description: "Awesome LLM robotics list."
+
+  - name: best-of-robot-simulators
+    github_id: knmcguire/best-of-robot-simulators
+    category: "other"
+    description: "Best of robot simulators list."
