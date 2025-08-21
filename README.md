@@ -10,12 +10,12 @@
 
 <p align="center">
     <a href="https://best-of.org" title="Best-of Badge"><img src="http://bit.ly/3o3EHNN"></a>
-    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-96-blue.svg?color=5ac4bf"></a>
+    <a href="#Contents" title="Project Count"><img src="https://img.shields.io/badge/projects-100-blue.svg?color=5ac4bf"></a>
     <a href="#Contribution" title="Contributions are welcome"><img src="https://img.shields.io/badge/contributions-welcome-green.svg"></a>
     <a href="https://github.com/msadowski/best-of-awesome-wr/releases" title="Best-of Updates"><img src="https://img.shields.io/github/release-date/msadowski/best-of-awesome-wr?color=green&label=updated"></a>
 </p>
 
-This curated list contains 96 awesome open-source projects with a total of 330K stars grouped into 16 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/msadowski/best-of-awesome-wr/issues/new/choose), submit a [pull request](https://github.com/msadowski/best-of-awesome-wr/pulls), or directly edit the [projects.yaml](https://github.com/msadowski/best-of-awesome-wr/edit/main/projects.yaml). Contributions are very welcome!
+This curated list contains 100 awesome open-source projects with a total of 380K stars grouped into 16 categories. All projects are ranked by a project-quality score, which is calculated based on various metrics automatically collected from GitHub and different package managers. If you like to add or update projects, feel free to open an [issue](https://github.com/msadowski/best-of-awesome-wr/issues/new/choose), submit a [pull request](https://github.com/msadowski/best-of-awesome-wr/pulls), or directly edit the [projects.yaml](https://github.com/msadowski/best-of-awesome-wr/edit/main/projects.yaml). Contributions are very welcome!
 
 > 🧙‍♂️  Discover other [best-of lists](https://best-of.org) or [create your own](https://github.com/best-of-lists/best-of/blob/main/create-best-of-list.md).
 
@@ -28,10 +28,10 @@ This curated list contains 96 awesome open-source projects with a total of 330K 
 - [Soft Robotics](#soft-robotics) _0 projects_
 - [Manufacturing & 3D Printing](#manufacturing--3d-printing) _3 projects_
 - [Datasets](#datasets) _1 projects_
-- [Drones & UAVs](#drones--uavs) _0 projects_
+- [Drones & UAVs](#drones--uavs) _3 projects_
 - [Libraries & Frameworks](#libraries--frameworks) _23 projects_
-- [Simulators](#simulators) _4 projects_
-- [Middleware](#middleware) _3 projects_
+- [Simulators](#simulators) _7 projects_
+- [Middleware](#middleware) _4 projects_
 - [ROS Ecosystem](#ros-ecosystem) _20 projects_
 - [Motor Control](#motor-control) _1 projects_
 - [Electronics](#electronics) _1 projects_
@@ -231,6 +231,30 @@ _Robotics datasets for training and benchmarking._
 
 _Drone platforms, autopilots, and UAV systems._
 
+<details><summary><b><a href="https://github.com/PX4/PX4-Autopilot">px4</a></b> (🥇35 ·  ⭐ 10K · 📈) - PX4 is an open source flight control software for drones and other.. <code><a href="http://bit.ly/3aKzpTv">BSD-3</a></code></summary>
+
+- [GitHub](https://github.com/PX4/PX4-Autopilot) (👨‍💻 980 · 🔀 13K · 📥 170K · 📋 8.3K - 19% open · ⏱️ 21.08.2025):
+
+	```
+	git clone https://github.com/PX4/PX4-Autopilot
+	```
+</details>
+<details><summary><b><a href="https://github.com/ArduPilot/ardupilot">ardupilot</a></b> (🥉33 ·  ⭐ 13K · 📈) - Open Source autopilot for multirotors, fixed wings, rovers,.. <code><a href="http://bit.ly/2M0xdwT">❗️GPL-3.0</a></code></summary>
+
+- [GitHub](https://github.com/ArduPilot/ardupilot) (👨‍💻 1.2K · 🔀 18K · 📋 7.3K - 21% open · ⏱️ 21.08.2025):
+
+	```
+	git clone https://github.com/ArduPilot/ardupilot
+	```
+</details>
+<details><summary><b><a href="https://github.com/paparazzi/paparazzi">paparazzi</a></b> (🥉25 ·  ⭐ 1.6K · 📈) - Open-source drone hardware and software project encompassing.. <code><a href="http://bit.ly/2KucAZR">❗️GPL-2.0</a></code></summary>
+
+- [GitHub](https://github.com/paparazzi/paparazzi) (👨‍💻 170 · 🔀 930 · 📥 13K · 📋 820 - 7% open · ⏱️ 17.08.2025):
+
+	```
+	git clone https://github.com/paparazzi/paparazzi
+	```
+</details>
 <br>
 
 ## Libraries & Frameworks
@@ -329,7 +353,23 @@ _Software libraries and frameworks for robotics development._
 
 _Robot simulation platforms and environments._
 
-<details><summary><b><a href="https://github.com/sea-bass/pyrobosim">pyrobosim</a></b> (🥈18 ·  ⭐ 340) - ROS2 enabled 2D mobile robot simulator for behavior prototyping. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/google-deepmind/mujoco">mujoco</a></b> (🥇37 ·  ⭐ 10K · ➕) - Multi-Joint dynamics with Contact (MuJoCo) is a physics engine for.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/google-deepmind/mujoco) (👨‍💻 92 · 🔀 1.1K · 📥 690K · 📦 4.7K · 📋 1.7K - 6% open · ⏱️ 21.08.2025):
+
+	```
+	git clone https://github.com/google-deepmind/mujoco
+	```
+</details>
+<details><summary><b><a href="https://github.com/cyberbotics/webots">webots</a></b> (🥈28 ·  ⭐ 3.7K · 📈) - Free and open source simulator that includes a large collection.. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code></summary>
+
+- [GitHub](https://github.com/cyberbotics/webots) (👨‍💻 140 · 🔀 1.8K · 📥 1.7M · 📋 1.9K - 11% open · ⏱️ 20.08.2025):
+
+	```
+	git clone https://github.com/cyberbotics/webots
+	```
+</details>
+<details><summary><b><a href="https://github.com/sea-bass/pyrobosim">pyrobosim</a></b> (🥉18 ·  ⭐ 340) - ROS2 enabled 2D mobile robot simulator for behavior prototyping. <code><a href="http://bit.ly/34MBwT8">MIT</a></code> <code><img src="https://www.python.org/static/favicon.ico" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/sea-bass/pyrobosim) (👨‍💻 18 · 🔀 60 · 📦 7 · 📋 120 - 4% open · ⏱️ 19.08.2025):
 
@@ -345,10 +385,11 @@ _Robot simulation platforms and environments._
 	git clone https://github.com/MRPT/mvsim
 	```
 </details>
-<details><summary>Show 2 hidden projects...</summary>
+<details><summary>Show 3 hidden projects...</summary>
 
-- <b><a href="https://github.com/microsoft/AirSim">airsim</a></b> (🥇30 ·  ⭐ 17K) - A simulator for drones, cars and more, built on Unreal Engine.. <code>❗Unlicensed</code> <code><img src="https://opensource.org/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/microsoft/AirSim">airsim</a></b> (🥈30 ·  ⭐ 17K) - A simulator for drones, cars and more, built on Unreal Engine.. <code>❗Unlicensed</code> <code><img src="https://opensource.org/favicon.ico" style="display:inline;" width="13" height="13"></code>
 - <b><a href="https://github.com/uzh-rpg/flightmare">flightmare</a></b> (🥉15 ·  ⭐ 1.2K · 💀) - An Open Flexible Quadrotor Simulator. <code>❗Unlicensed</code> <code><img src="https://opensource.org/favicon.ico" style="display:inline;" width="13" height="13"></code>
+- <b><a href="https://github.com/isaac-sim/IsaacSim">isaac-sim</a></b> (🥉14 ·  ⭐ 1.3K · 🐣) - Proprietary simulator from NVIDIA with advanced physics,.. <code>❗Unlicensed</code>
 </details>
 <br>
 
@@ -374,9 +415,10 @@ _Robot operating systems and middleware platforms._
 	git clone https://github.com/copper-project/copper-rs
 	```
 </details>
-<details><summary>Show 1 hidden projects...</summary>
+<details><summary>Show 2 hidden projects...</summary>
 
-- <b><a href="https://github.com/robotology/yarp">yarp</a></b> (🥉24 ·  ⭐ 570) - Yet Another Robot Platform middleware for robotics. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/robotology/yarp">yarp</a></b> (🥈24 ·  ⭐ 570) - Yet Another Robot Platform middleware for robotics. <code>❗Unlicensed</code>
+- <b><a href="https://github.com/ros2/ros2">ros</a></b> (🥉22 ·  ⭐ 4.5K · 📈) - The Robot Operating System (ROS) is a set of software libraries.. <code>❗Unlicensed</code>
 </details>
 <br>
 
