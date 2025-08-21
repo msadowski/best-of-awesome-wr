@@ -345,14 +345,17 @@ projects:
 
   # Drones & UAVs
   - name: ardupilot
+    github_id: ArduPilot/ardupilot
     category: "drones"
     description: "Open Source autopilot for multirotors, fixed wings, rovers, boats and submarines."
 
   - name: px4
+    github_id: PX4/PX4-Autopilot
     category: "drones"
     description: "PX4 is an open source flight control software for drones and other unmanned vehicles."
 
   - name: paparazzi
+    github_id: paparazzi/paparazzi
     category: "drones"
     description: "Open-source drone hardware and software project encompassing autopilot systems and ground station software for multicopters/multirotors, fixed-wing, helicopters and hybrid aircraft."
 
@@ -553,6 +556,7 @@ projects:
     description: "Open Source simulator that plays nicely with ROS developed by OSRF. Supports 4 physics engines."
 
   - name: webots
+    github_id: cyberbotics/webots
     category: "simulators"
     description: "Free and open source simulator that includes a large collection of robots, sensors, actuators and objects models."
 
@@ -589,11 +593,18 @@ projects:
     description: "Lightweight, dynamical simulator for 2D vehicles and robots."
 
   - name: isaac-sim
+    github_id: isaac-sim/IsaacSim
     category: "simulators"
     description: "Proprietary simulator from NVIDIA with advanced physics, AI-based features, and GPU-accelerated capabilities."
 
+  - name: mujoco
+    github_id: google-deepmind/mujoco
+    category: "simulators"
+    description: "Multi-Joint dynamics with Contact (MuJoCo) is a physics engine for fast, accurate robot simulation and optimization."
+
   # Middleware
   - name: ros
+    github_id: ros2/ros2
     category: "middleware"
     description: "The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications."
 
